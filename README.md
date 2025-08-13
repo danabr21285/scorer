@@ -49,4 +49,10 @@ While this project is framed around higher education, the core methodology is hi
 
 This project demonstrates my ability to translate a domain-specific problem into a technical solution and recognize how that solution can be generalized to provide value in different contexts.
 
+### **A Note on Data Limitations and Future Improvements** 🤔
 
+This project relies on programmatically generated synthetic data to demonstrate the complete machine learning workflow. While the data is designed to have realistic patterns, it does not currently incorporate all the complex, real-world constraints of an actual admissions process.
+
+For instance, the current logic might produce scenarios where a student with a very low GPA is predicted as 'Enrolled,' which is unlikely in reality. The primary focus of this project was on the technical implementation of the end-to-end model pipeline.
+
+A future iteration would involve enhancing the data generation script with more sophisticated, rule-based logic to ensure greater realism (e.g., setting a minimum GPA for scholarship eligibility or enrollment.
