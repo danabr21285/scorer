@@ -1,10 +1,3 @@
-Of course. Here is the complete and final set of code for the entire project, structured into the four necessary files.
-
-File 1: train_model.py
-This script generates the data, finds the best model settings using GridSearchCV, and saves the final, trained model to the file enrollment_model.joblib. You only need to run this script once to create your model file.
-
-Python
-
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -68,3 +61,4 @@ print(f"Best parameters found: {grid_search.best_params_}")
 filename = 'enrollment_model.joblib'
 joblib.dump(best_model, filename)
 print(f"\nTraining complete. Model saved to '{filename}'.")
+
